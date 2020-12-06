@@ -1,0 +1,169 @@
+
+*{margin: 0;
+  padding:0;
+}
+
+/* header Start*/
+header{background-color:#121B2A;
+}
+.container{ width:80%;
+     margin:0 auto;
+    overflow: hidden;
+    
+}
+
+
+.logo{
+     width:20%;
+    float:left;
+}
+.logo img{width: 100%;
+    
+}
+.menu{
+     width:70%;
+    float:right;
+     margin-top: 25px;
+    
+    }
+.menu ul{float: right;
+    
+}
+.menu ul li{list-style: none;
+            float: left
+    
+}
+.menu ul li a{text-decoration: none;
+                padding: 10px 20px;
+                color: white;
+                display: inline-block;
+    
+}
+.menu ul li:last-child a {padding-right: 0px;
+}
+.menu ul li a:hover{color:blue;
+    transition:.03s;
+}
+/* header end*/
+
+/* banner start*/
+
+.banner{background-image: url(image/it-services-banner-2-1024x320.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b_contain{
+    width: 40%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.b_contain h2{
+    color: white
+}
+
+.b_contain h1{color:#0077be;
+}
+.b_contain p{color: white;
+    
+}
+.b_contain button{
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 3px 13px;
+    transition: .03s;
+}
+.b_contain button:hover{
+    background: blue;
+    color:white;
+}
+
+/* banner end*/
+
+/* service starte*/
+.service_section{
+    background-color: #121b2c;
+   }
+
+
+
+.servic1{
+     width: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+}
+.servic1 img{width:100%;
+    
+}
+
+.servic1 p{ 
+    text-align: center;
+    font-size: 14px;
+    color:white;
+}
+
+
+/* service end*/
+
+/* address start*/
+.address{
+   background-color:#040811;
+}
+.add1{
+    width:25%;
+     margin-top:50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    padding: 20px;
+    float:left;
+    margin-left:15px;
+}
+.add1 p{
+    text-align: center;
+    font-size: 14px;
+    color:white;
+}
+
+.add1 img{
+        width: 65%;
+}
+
+/*121b2c */
+
+/* address end*/
+/* fotter start*/
+.footer{
+    overflow: hidden;
+    background-color: #121b2c;
+}
+   
+    
+.fa{
+   width: 58%;
+  float: left;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    word-spacing: 10px;
+}
+
+   
+.footer img{
+    width: 40%;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+/* fotter end*/
+
+
